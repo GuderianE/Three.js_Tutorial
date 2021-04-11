@@ -1,0 +1,25 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "dat.gui": "0.7.7",
+    "gsap": "3.6.1",
+    "parcel-bundler": "^1.6.1",
+    "three": "0.127.0",
+    "three-gltf-loader": "1.111.0",
+    "three-orbit-controls": "82.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["javascript", "starter"]
+}
